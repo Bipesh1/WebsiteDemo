@@ -56,7 +56,7 @@ export default function ProductView() {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="grid-cols-1 gap-x-10 gap-y-4 sm:grid-cols-2  grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3"
+          className="grid-cols-1 gap-x-10 gap-y-4 sm:grid-cols-2  grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3"
         >
           {products.map((product, index) => (
             <ProductCard key={index} product={product} />

@@ -4,10 +4,10 @@ import { AppSidebar } from "@/components/app-sidebar"
  
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <SidebarProvider className="overflow-x-hidden flex">
+    <SidebarProvider className="overflow-x-hidden">
       <AppSidebar />
       <main className="flex-1 pt-8">
-        <SidebarTrigger />
+        <SidebarTrigger className="md:hidden" />
         {children}
       </main>
     </SidebarProvider>
