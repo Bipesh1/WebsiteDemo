@@ -26,7 +26,7 @@ export default function OurServices() {
 
     return (
         <div className=' bg-gray-100'>
-            <div className="container mx-auto md:px-12 px-4  py-16 flex justify-center gap-10 text-center items-center">
+            <div className="container mx-auto md:px-12 px-4  py-16 flex justify-center gap-10 text-center items-center ">
                 {services.map((service, index) => (
                     <FeatureCard key={index} card={service} />
                 ))}
