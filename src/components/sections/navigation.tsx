@@ -41,7 +41,7 @@ export function Navigation() {
                     } btn`}
                   >
                     <Link
-                      href="/products"
+                      href="/"
                       className="text-black text-base hover:text-primary transition-colors"
                     >
                       Home
@@ -65,7 +65,7 @@ export function Navigation() {
                           />
                         </div>
                         <div>
-                          <Link href={"/singingbowl"} className="text-primary">
+                          <Link href={"/categories/singingbowl"} className="text-primary">
                             Singing Bowl
                           </Link>
                           <p className="text-secondary/70">
@@ -83,7 +83,7 @@ export function Navigation() {
                           />
                         </div>
                         <div>
-                          <Link href={"/"} className="text-primary">
+                          <Link href={"/categories/hemp"} className="text-primary">
                             Hemp Bag
                           </Link>
                           <p className="text-secondary/70">
