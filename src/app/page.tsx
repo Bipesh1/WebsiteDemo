@@ -1,6 +1,8 @@
+"use client"
 import BestSeller from "@/components/sections/best-seller";
 import HeroSection from "@/components/sections/hero-section";
-import OurServices from "@/components/sections/our-services";
+import FooterSection from "@/components/sections/footer";
+import HotDealsSection from "@/components/sections/hot-deals-section";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <HeroSection/>
       <OurServices/>
       <BestSeller/>
+      <HotDealsSection/>
+      <FooterSection/>
     </div>
   );
 }
