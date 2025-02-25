@@ -11,41 +11,49 @@ const products = [
     name: "Singing Bowl",
     thumbnail: card1,
     description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
+     price: "$18"
   },
   {
     name: "Singing Bowl 2",
     thumbnail: card2,
     description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
+     price: "$18"
   },
   {
     name: "Hemp Bag",
     thumbnail: card3,
     description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
+    price: "$18"
   },
   {
     name: "Hemp Bag 2",
     thumbnail: card3,
     description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
+    price: "$18"
   },
   {
     name: "Singing Bowl",
     thumbnail: card1,
     description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
+    price: "$18"
   },
   {
     name: "Singing Bowl 2",
     thumbnail: card2,
     description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
+    price: "$18"
   },
   {
     name: "Hemp Bag",
     thumbnail: card3,
     description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
+    price: "$18"
   },
   {
     name: "Hemp Bag 2",
     thumbnail: card3,
     description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
+    price: "$18"
   },
 ];
 

@@ -31,9 +31,9 @@ export function Navigation() {
             <Image src={logo} alt="Logo" height={100} width={100} />
           </Link>
 
-          <div className="hidden md:flex items-center text-base space-x-8 ">
+          <div className="hidden md:flex items-center text-base space-x-10 ">
             <NavigationMenu>
-              <NavigationMenuList className="space-x-5">
+              <NavigationMenuList className="space-x-10">
                 <NavigationMenuItem>
                   <button
                     className={`${
@@ -42,7 +42,7 @@ export function Navigation() {
                   >
                     <Link
                       href="/products"
-                      className="text-black text-sm hover:text-primary transition-colors"
+                      className="text-black text-base hover:text-primary transition-colors"
                     >
                       Home
                     </Link>
@@ -50,7 +50,7 @@ export function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger className="text-black font-normal hover:text-primary transition-colors">
+                  <NavigationMenuTrigger className="text-black text-base font-normal hover:text-primary transition-colors">
                     Categories
                   </NavigationMenuTrigger>
                   <NavigationMenuContent className="p-4">
@@ -65,7 +65,7 @@ export function Navigation() {
                           />
                         </div>
                         <div>
-                          <Link href={"/"} className="text-primary">
+                          <Link href={"/singingbowl"} className="text-primary">
                             Singing Bowl
                           </Link>
                           <p className="text-secondary/70">
@@ -103,7 +103,7 @@ export function Navigation() {
                   >
                     <Link
                       href="/products"
-                      className="text-black text-sm hover:text-primary transition-colors"
+                      className="text-black text-base hover:text-primary transition-colors"
                     >
                       About
                     </Link>
@@ -118,7 +118,7 @@ export function Navigation() {
                   >
                     <Link
                       href="/products"
-                      className="text-black text-sm hover:text-primary transition-colors"
+                      className="text-black text-base hover:text-primary transition-colors"
                     >
                       Contact Us
                     </Link>
