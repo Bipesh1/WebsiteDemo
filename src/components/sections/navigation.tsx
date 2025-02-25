@@ -1,9 +1,4 @@
 "use client";
-import * as React from "react";
-import Link from "next/link";
-import { motion } from "framer-motion";
-import logo from "../../../public/logo.webp";
-import Image from "next/image";
 import MobileSidebar from "@/components/sections/mobile-sidebar";
 import SocialLinks from "@/components/sections/social-links";
 import {
@@ -13,10 +8,14 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
+import { motion } from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
+import logo from "../../../public/logo.webp";
 
-import navimage1 from "../../../public/singingbowl2.jpeg";
-import navimage2 from "../../../public/hemp.webp";
 import { usePathname } from "next/navigation";
+import navimage2 from "../../../public/hemp.webp";
+import navimage1 from "../../../public/singingbowl2.jpeg";
 
 export function Navigation() {
   const pathname = usePathname(); // Get the current path

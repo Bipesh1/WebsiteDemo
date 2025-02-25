@@ -1,21 +1,18 @@
 "use client";
-import React from "react";
-import card1 from "../../public/singingbowlimage/1.webp";
+import {
+    Drawer,
+    DrawerClose,
+    DrawerContent,
+    DrawerDescription,
+    DrawerFooter,
+    DrawerHeader,
+    DrawerTitle,
+    DrawerTrigger,
+} from "@/components/ui/drawer";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
+import { CiHeart, CiSearch } from "react-icons/ci";
 import { FaEye } from "react-icons/fa";
-import { CiHeart } from "react-icons/ci";
-import { CiSearch } from "react-icons/ci";
-import {
-  Drawer,
-  DrawerClose,
-  DrawerContent,
-  DrawerDescription,
-  DrawerFooter,
-  DrawerHeader,
-  DrawerTitle,
-  DrawerTrigger,
-} from "@/components/ui/drawer";
 import { Button } from "./ui/button";
 
 type Product = {

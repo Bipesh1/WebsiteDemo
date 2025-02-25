@@ -1,17 +1,16 @@
 "use client"
-import Image from 'next/image'
-import React from 'react'
-import heroimage from "../../../public/singingbowl1.jpg"
-import heroimage1 from "../../../public/singingbowl2.jpeg"
-import heroimage2 from "../../../public/hemp.webp"
-import {motion} from "framer-motion"
-import { Dancing_Script } from 'next/font/google'
-import Autoplay from "embla-carousel-autoplay";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
-} from "@/components/ui/carousel";
+} from "@/components/ui/carousel"
+import Autoplay from "embla-carousel-autoplay"
+import { motion } from "framer-motion"
+import { Dancing_Script } from 'next/font/google'
+import Image from 'next/image'
+import heroimage2 from "../../../public/hemp.webp"
+import heroimage from "../../../public/singingbowl1.jpg"
+import heroimage1 from "../../../public/singingbowl2.jpeg"
 
 const dancingscript= Dancing_Script({
     weight: ['400','500','600','700'],
