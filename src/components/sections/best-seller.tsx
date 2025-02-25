@@ -59,7 +59,7 @@ export default function BestSeller() {
           transition={{ duration: 0.8 }}
           className="text-3xl text-center"
         >
-          Our Best <span className="text-primary">Seller</span>
+          Our Best <span className=" relative text-primary after:absolute after:bg-primary after:w-20 after:h-1 after:bottom-0 after:left-0 after:content-['']">Seller</span>
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 40 }}
@@ -71,7 +71,7 @@ export default function BestSeller() {
           
         </motion.p>
       </div>
-      <div className="container mx-auto px-4 py-10">
+      <div className="container mx-auto px-4 py-10 ">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}

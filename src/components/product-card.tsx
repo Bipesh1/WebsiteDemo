@@ -45,7 +45,7 @@ export default function ProductCard({ product }: { product: Product }) {
               <CiSearch className="text-xl" />
             </DrawerTrigger>
             <DrawerContent>
-              <div className="mx-auto w-full max-w-xl">
+              <div className="mx-auto w-full max-w-2xl">
                 <DrawerHeader className="space-y-4">
                   <DrawerTitle>{product.name}</DrawerTitle>
                   <DrawerDescription>{product.description}</DrawerDescription>
