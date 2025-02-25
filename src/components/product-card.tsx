@@ -24,7 +24,7 @@ type Product = {
 
 export default function ProductCard({ product }: { product: Product }) {
   return (
-    <div className="flex flex-col space-y-4 w-full md:w-[300px] min-h-[300px]">
+    <div className="flex flex-col space-y-4 w-full md:w-full lg:w-[300px] min-h-[300px]">
 
       <Link
         href={""}
