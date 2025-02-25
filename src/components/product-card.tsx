@@ -52,7 +52,7 @@ export default function ProductCard({ product }: { product: Product }) {
                 </DrawerHeader>
                 <div className="container mx-auto p-4">
                   <div className="grid grid-cols-2 space-x-10">
-                    <div className=" w-52">
+                    <div className=" w-64 bg-primary/10">
                       <Image
                         src={product.thumbnail}
                         alt="singing-bowl"
