@@ -76,7 +76,7 @@ export default function BestSeller() {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="grid-cols-1 gap-x-10 gap-y-4 sm:grid-cols-2 md:px-12 grid md:grid-cols-4"
+          className="grid-cols-1 gap-x-10 gap-y-4 sm:grid-cols-2 sm:px-4 md:px-4 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
         >
           {products.map((product, index) => (
             <ProductCard key={index} product={product} />
