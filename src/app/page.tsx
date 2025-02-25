@@ -1,3 +1,4 @@
+"use client"
 import BestSeller from "@/components/sections/best-seller";
 import HeroSection from "@/components/sections/hero-section";
 import FooterSection from "@/components/sections/footer";
