@@ -187,3 +187,9 @@
   width: 100%;
   left: 0%;
 }
+
+@media (max-width: 500px) {
+  .hempContainer {
+    top: 30px;
+  }
+}
