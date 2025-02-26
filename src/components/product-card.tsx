@@ -58,15 +58,15 @@ export default function ProductCard({ product }: { product: Product }) {
                     <DrawerDescription>{product.description}</DrawerDescription>
                   </DrawerHeader>
                   <div className="container mx-auto p-4">
-                    <div className="grid grid-cols-2 space-x-10">
-                      <div className=" w-64 bg-primary/10">
+                    <div className="grid grid-cols-1 md:grid-cols-2 space-x-0 gap-6 md:gap-0 place-items-center text-center md:place-items-start md:text-left">
+                      <div className=" w-64 bg-primary/10 ">
                         <Image
                           src={product.thumbnail}
                           alt="singing-bowl"
                           className="object-cover p-10 hover:scale-105 transition-all"
                         />
                       </div>
-                      <div className="flex flex-col justify-center space-y-2">
+                      <div className="flex flex-col justify-center md:h-full space-y-2">
                         <h2 className="text-xl font-semibold text-primary">
                           {product.name}
                         </h2>
