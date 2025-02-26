@@ -24,18 +24,22 @@ type Product = {
 
 export default function ProductCard({ product }: { product: Product }) {
   return (
-    <div className="flex flex-col space-y-4 w-full md:w-full lg:w-[300px] min-h-[300px]">
+    <div className="relative group flex flex-col space-y-4 w-full md:w-full lg:w-[300px] min-h-[300px]">
 
       <Link
-        href={""}
-        className={`relative group w-full h-full bg-primary/10 flex items-center`}
+        href={{
+          pathname: '/products',
+          query: { data: JSON.stringify(product) },
+        }}
+        className={`  w-full h-full bg-primary/10 flex items-center`}
       >
         <Image
           src={product.thumbnail}
           alt="singing-bowl"
           className="object-cover p-10 hover:scale-105 transition-all"
           />
-        <div className="opacity-0 w-full absolute flex group-hover:opacity-100 group-hover:bottom-8  transition-all duration-300 justify-evenly bottom-0 p-2">
+        </Link>
+        <div className="opacity-0 w-full absolute flex group-hover:opacity-100 group-hover:bottom-16 transition-all duration-300 bottom-0 justify-evenly p-2">
           <div className="bg-white p-2 rounded-full">
             <FaEye className="text-xl" />
           </div>
@@ -88,7 +92,7 @@ export default function ProductCard({ product }: { product: Product }) {
             </Drawer>
           </div>
         </div>
-      </Link>
+      
       <div className="text-center text-secondary">
         <p className="text-primary">{product.name}</p>
         <p>{product.price}</p>

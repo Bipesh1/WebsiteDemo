@@ -36,9 +36,7 @@ export function Navigation() {
               <NavigationMenuList className="space-x-10">
                 <NavigationMenuItem>
                   <button
-                    className={`${
-                      pathname === "/products" ? "active" : ""
-                    } btn`}
+                    className="btn"
                   >
                     <Link
                       href="/"
@@ -96,10 +94,8 @@ export function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                  <button
-                    className={`${
-                      pathname === "/products" ? "active" : ""
-                    } btn`}
+                <button
+                    className="btn"
                   >
                     <Link
                       href="/products"
@@ -111,10 +107,8 @@ export function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                  <button
-                    className={`${
-                      pathname === "/products" ? "active" : ""
-                    } btn`}
+                <button
+                    className="btn"
                   >
                     <Link
                       href="/products"
