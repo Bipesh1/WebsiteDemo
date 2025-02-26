@@ -11,7 +11,9 @@ export default function Home() {
     <div className="overflow-x-hidden">
       <HeroSection/>
       <BestSeller/>
+      <HempImage/>
       <HotDealsSection/>
+      <Blog/>
       <FooterSection/>
     </div>
   );
