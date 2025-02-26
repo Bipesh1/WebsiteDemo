@@ -5,6 +5,7 @@ import ProductCard from "../product-card";
 import card1 from "../../../public/singingbowlimage/1.webp";
 import card2 from "../../../public/singingbowlimage/2.png";
 import card3 from "../../../public/hemoimages/hemp.webp";
+import card4 from "../../../public/hemoimages/hemp2.png";
 
 const products = [
   {
@@ -26,8 +27,8 @@ const products = [
     price: "$18"
   },
   {
-    name: "Hemp Bag 2",
-    thumbnail: card3,
+    name: "Hemp Oil",
+    thumbnail: card4,
     description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
     price: "$18"
   },
@@ -44,8 +45,8 @@ const products = [
     price: "$18"
   },
   {
-    name: "Hemp Bag",
-    thumbnail: card3,
+    name: "Hemp Oil 2",
+    thumbnail: card4,
     description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
     price: "$18"
   },

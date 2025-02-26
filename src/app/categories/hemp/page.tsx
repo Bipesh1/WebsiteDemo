@@ -3,6 +3,7 @@ import BreadCrumb from "@/components/bread-crumb";
 import card3 from "../../../../public/hemoimages/hemp.webp"
 import {motion} from "framer-motion"
 import ProductCard from "@/components/product-card";
+import card4 from "../../../../public/hemoimages/hemp2.png";
 
 export default function ProductView() {
 
@@ -11,11 +12,11 @@ export default function ProductView() {
       name: "Hemp 1",
       thumbnail: card3,
       description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
-       price: "$18"
+       price: "$20"
     },
     {
       name: "Hemp 2",
-      thumbnail: card3,
+      thumbnail: card4,
       description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
        price: "$18"
     },
@@ -23,11 +24,11 @@ export default function ProductView() {
       name: "Hemp 3",
       thumbnail: card3,
       description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
-      price: "$18"
+      price: "$20"
     },
     {
         name: "Hemp 3",
-        thumbnail: card3,
+        thumbnail: card4,
         description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
         price: "$18"
       },
@@ -35,11 +36,11 @@ export default function ProductView() {
         name: "Hemp 3",
         thumbnail: card3,
         description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
-        price: "$18"
+        price: "$20"
       },
       {
         name: "Hemp 3",
-        thumbnail: card3,
+        thumbnail: card4,
         description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
         price: "$18"
       }

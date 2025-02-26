@@ -28,7 +28,7 @@ export default function ProductCard({ product }: { product: Product }) {
 
       <Link
         href={""}
-        className={`relative group w-full h-full bg-primary/10`}
+        className={`relative group w-full h-full bg-primary/10 flex items-center`}
       >
         <Image
           src={product.thumbnail}

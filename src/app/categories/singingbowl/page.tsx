@@ -18,7 +18,7 @@ export default function ProductView() {
       name: "Singing Bowl 2",
       thumbnail: card2,
       description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
-       price: "$18"
+       price: "$20"
     },
     {
       name: "Singing Bowl",
@@ -30,7 +30,7 @@ export default function ProductView() {
       name: "Singing Bowl 2",
       thumbnail: card2,
       description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
-      price: "$18"
+      price: "$20"
     },
     {
       name: "Singing Bowl 2",
@@ -42,7 +42,7 @@ export default function ProductView() {
       name: "Singing Bowl 2",
       thumbnail: card1,
       description: "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel...",
-      price: "$18"
+      price: "$20"
     }
   ];
   return (

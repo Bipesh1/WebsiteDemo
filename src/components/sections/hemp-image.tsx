@@ -13,15 +13,15 @@ export default function HempImage() {
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className=" transform -translate-x-1/2 -translate-y-1/2 max-w-lg p-6 bg-black bg-opacity-50 rounded-lg shadow-lg text-white text-center w-11/12"
+        className=" transform -translate-x-1/2 -translate-y-1/2 max-w-2xl px-6 py-10 bg-black bg-opacity-50 rounded-lg shadow-lg text-white text-center w-11/12"
 
               >
-        <h1 className="text-1xl font-semibold leading-snug md:text-5xl">High Quality Hemp</h1>
+        <h1 className="text-xl font-semibold leading-snug md:text-5xl">High Quality <span  className="text-secondary">Hemp Oil</span></h1>
         <p className="mt-4 text-sm leading-relaxed md:text-lg">
           Hemp Oil is a natural product made from the cannabis plant. It’s known for its health benefits and versatility.
         </p>
 
-        <Button className="mt-6 px-8 py-3 text-sm md:text-lg bg-white text-black hover:bg-primary hover:text-white rounded-md transition-all duration-300">
+        <Button variant={"ghost"} className="mt-6 border border-white text-sm md:text-lg font-light  hover:border-primary hover:text-white hover:bg-primary text-white rounded-none transition-all duration-300">
           Buy Now
         </Button>
       </motion.div>
