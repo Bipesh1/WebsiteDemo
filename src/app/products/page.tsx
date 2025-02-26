@@ -6,8 +6,17 @@ import { useSearchParams } from "next/navigation";
 import { FaChevronUp, FaChevronDown } from "react-icons/fa";
 import FooterSection from "@/components/sections/footer";
 
-
+// Wrap the main component in Suspense
 export default function ProductPage() {
+  return (
+    <Suspense fallback={<div className="text-center py-20">Loading...</div>}>
+      <ProductContent />
+    </Suspense>
+  );
+}
+
+// Move the logic to a separate component
+function ProductContent() {
   const searchParams = useSearchParams();
   const productData = searchParams.get("data");
   const product = productData ? JSON.parse(productData) : null;
@@ -19,7 +28,6 @@ export default function ProductPage() {
   }
 
   return (
-    <Suspense fallback={<div className="text-center py-20">Loading...</div>}>
     <div className="min-h-screen bg-white">
       <Head>
         <title>{product.name}</title>
@@ -123,8 +131,7 @@ export default function ProductPage() {
           </div>
         </div>
       </main>
-      <FooterSection/>
+      <FooterSection />
     </div>
-</Suspense>
   );
 }
