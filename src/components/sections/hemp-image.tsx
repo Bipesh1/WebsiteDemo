@@ -6,8 +6,10 @@ import { Button } from "../ui/button";
 
 export default function HempImage() {
   return (
-    <div className="container mx-auto flex items-center sm:pl-10 sm:justify-start justify-center mb-10
-     w-full h-screen " style={{ backgroundImage: `url(${bg2.src})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat"}}>
+    <div 
+    className="container mx-auto flex items-center sm:pl-10 sm:justify-start justify-center mb-10 w-full h-screen bg-center bg-no-repeat bg-contain sm:bg-cover"
+    style={{ backgroundImage: `url(${bg2.src})` }}
+  >
 
         <motion.div
         initial={{ opacity: 0, y: 40 }}
