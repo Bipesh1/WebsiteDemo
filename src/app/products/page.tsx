@@ -1,7 +1,7 @@
 "use client";
 import Head from "next/head";
 import Image from "next/image";
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { FaChevronUp, FaChevronDown } from "react-icons/fa";
 import FooterSection from "@/components/sections/footer";
@@ -19,6 +19,7 @@ export default function ProductPage() {
   }
 
   return (
+    <Suspense fallback={<div className="text-center py-20">Loading...</div>}>
     <div className="min-h-screen bg-white">
       <Head>
         <title>{product.name}</title>
@@ -124,5 +125,6 @@ export default function ProductPage() {
       </main>
       <FooterSection/>
     </div>
+</Suspense>
   );
 }
